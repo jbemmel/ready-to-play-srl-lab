@@ -3,22 +3,22 @@ all:
     srl:
       hosts:
         clab-play_srl-leaf1:
-          ansible_host: 172.20.20.7
-        clab-play_srl-leaf2:
-          ansible_host: 172.20.20.6
-        clab-play_srl-leaf3:
-          ansible_host: 172.20.20.2
-        clab-play_srl-leaf4:
-          ansible_host: 172.20.20.9
-        clab-play_srl-spine1:
           ansible_host: 172.20.20.4
+        clab-play_srl-leaf2:
+          ansible_host: 172.20.20.8
+        clab-play_srl-leaf3:
+          ansible_host: 172.20.20.6
+        clab-play_srl-leaf4:
+          ansible_host: 172.20.20.2
+        clab-play_srl-spine1:
+          ansible_host: 172.20.20.5
         clab-play_srl-spine2:
           ansible_host: 172.20.20.3
     vr-sros:
       hosts:
         clab-play_srl-dcgw1:
-          ansible_host: 172.20.20.8
+          ansible_host: 172.20.20.9
         clab-play_srl-dcgw2:
-          ansible_host: 172.20.20.10
+          ansible_host: 172.20.20.7
         clab-play_srl-sros-client:
-          ansible_host: 172.20.20.5
+          ansible_host: 172.20.20.10
